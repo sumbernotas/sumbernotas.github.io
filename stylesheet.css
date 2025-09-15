@@ -1,0 +1,50 @@
+body { 
+    font-family: sans-serif; 
+    padding: 1rem; 
+    background-color: #443c44; 
+    color: #333; 
+}
+
+/* global tabs and content container*/
+.tabs-container {
+ max-width: 90%; min-height: 50vh; overflow: auto;
+ margin: 1rem auto; border: 0.1rem solid #ddd;
+ border-radius: 0.5rem; background: #f1eeee;
+ box-shadow: 0.5rem 0.7rem 0.5rem rgba(0,0,0,0.1);
+ padding: 0.3rem ;
+}
+
+/* tab pannel container*/
+.tab-group {
+ display: block;
+ background-color: rgba(200,150,150,0.2);
+ padding: 0.7rem 0.5rem 0.2rem 0.5rem;
+ border-radius: 0.5rem ;
+ box-shadow: 0 -0.3rem 0.5rem -0.1rem rgba(0, 0, 0, 0.4) inset;
+}
+
+/* The class for a tab button */
+.tab-label-base {
+ margin: 0.1rem ;
+ cursor: pointer;
+ padding: 0.6rem; /* Consistent padding */
+ background: transparent; font-size: 1.1rem;
+ border-radius: 0.5rem 0.5rem 0.2rem 0.2rem ;
+ border: 0.1rem solid rgba(70, 90, 50, 0.3) ;
+ /* FIX: Removed redundant box-shadow declaration - only the inset shadow is kept */
+ box-shadow: 0 -0.3rem 0.5rem -0.1rem rgba(70, 90, 50, 0.3) inset;
+}
+
+.tab-label-base:hover
+{ background-color: #71BcF8; }
+
+/* The active tab */
+.tab-label-base.active {
+ color: #f1eeee;
+ box-shadow: 0rem 0.3rem 0.1rem #6117F1;
+ background-color: #392A63;
+ transition: transform 0.7s ease-in-out;
+ transform: translateY(-0.25rem);
+}
+.tab-content { display: none; padding: 1rem; }
+.tab-content.active { display: block; } 
