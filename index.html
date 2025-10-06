@@ -19,26 +19,174 @@
         <div class="tab-content-container">
             <!-- HOME -->
             <div id="panel-1" class="tab-content active" role="tabpanel" aria-labelledby="ex-tab-1">
-                <h3>CS-499 CAPSTONE</h3>
+                <h2>CS-499 CAPSTONE</h2>
                 <p>TO DO</p>
             </div>
 
             <!-- ENHANCEMENT ONE -->
             <div id="panel-2" class="tab-content" role="tabpanel" aria-labelledby="ex-tab-2">
-                <h3>Software Engineering & Design</h3>
-                <p>TODO</p>
+                <h1>Software Engineering & Design</h1>
+
+                <ul>
+                    <li><a href="https://github.com/sumbernotas/CS-320-SoftwareTestQA" target="_blank">Original Project</a></li>
+                    <li><a href="https://github.com/sumbernotas/MedicalAptApplication" target="_blank">Enhanced Project</a></li>
+                </ul>
+
+                <h2>Artifact Introduction</h2>
+                <p>This artifact is a comprehensive web-based system for managing patients and their appointments. It is an enhancement of 
+                    my original project completed in CS-320 Software Testing and QA. Originally, the project was command-line only, no UI, 
+                    that provided basic CRUD operations for contacts, tasks, and appointments using only service classes and JUnit testing.
+                     My enhanced artifact is a full-featured Spring Boot web application with user interface, validation, and professional software architecture.
+                </p>
+
+                <h2>Justification</h2>
+                <p>I chose this artifact for my ePortfolio because it was actually one of my favorite projects completed within my time at SNHU. I thoroughly 
+                    enjoyed learning about testing and how to implement that into my skills as a developer. The project from CS-320 itself was a wonderful foundation 
+                    for a full application as well, so transforming it from a basic service oriented application into a full stack web application not only shows
+                    significant growth in myself as a developer but allowed me to come back to a project I really enjoyed. <br><br>
+
+	                <span style="text-decoration:underline;">Design:</span> I implemented a MVC (model view controller) pattern. The service later handles business logic, the controller layer manages web 
+                    requests and responses, and Thymeleaf templates provide the presentation layer. This all demonstrated my understanding of enterprise level 
+                    architecture principles! I also implemented proper entity relationships with ID generation using AtomicLong for safety and data validation 
+                    in regard to database design. This directly was enhanced from my original project and demonstrated my understanding of data modeling! <br><br>
+                    <span style="text-decoration:underline;">Framework:</span> I successfully integrated Spring Boot, Spring MVC, and Thymeleaf which showcases my ability to work with Java frameworks.
+                    User experience: Using Boot Strap I was able to include an interface with intuitive navigation, success and error messages, and confirmation
+                    dialogs to show consideration for end-user experience. This showcases my ability to create a quality user experience which is vital to professional 
+                    development <br><br>
+                    <span style="text-decoration:underline;">Testing:</span> Using JUnit 5, I covered validation scenarios, edge cases, and logic verification which demonstrated my ability and commitment to QA 
+                    and test-driven development principles. <br><br>
+
+                    My artifact was improved through several enhancements such as replacing command line interface with a web interface, implementing proper 
+                    validation with user-friendly messages, adding full CRUD operations for patients and appointments, and establishing comprehensive error handling throughout the application.
+                </p>
+
+                <h2>Reflection</h2>
+                <p>The process of enhancing this artifact provided learning experiences that extended far beyond technical skill development. This was my 
+                    very first time truly working with Spring Boot and Thymeleaf and while it was extremely intimidating at first, I learned how to understand 
+                    documentation and implementation of new systems and software much better. While I did push myself out of my comfort zone with this project, 
+                    I worked endlessly and passionately which ended up being very fulfilling and worth it. I was faced with many challenges though, my most 
+                    technically demanding being debugging the Thymeleaf template errors I was getting, particularly in understanding why my form objects were 
+                    failing. To fix this, I had to dive very deeply into Spring’s model attribute handling and Thymeleafs expression language which led me to have 
+                    a better understanding of what was going wrong and how to fix it. Managing the relationship between AppointmentService and PatientService in the 
+                    testing environment was another substantial challenge. The dependency injection that works seamlessly in the running application did not function 
+                    in unit tests, requiring me to implement manual dependency injection using reflection. Overall, I am significantly proud of myself with this 
+                    enhancement for many reasons. With a lot of dedication, I managed to create a whole full-stack application using new software all while being 
+                    on a time crunch. This week taught me that professional software development goes far beyond just writing functional code, and while the process 
+                    may seem daunting or impossible, it is possible with the right passion and dedication. 
+                </p>
             </div>
 
             <!-- ENHANCEMENT TWO -->
             <div id="panel-3" class="tab-content" role="tabpanel" aria-labelledby="ex-tab-3">
-                <h3>Data Structures & Algorithms</h3>
-                <p>TODO</p>
+                <h1>Data Structures & Algorithms</h1>
+
+                <ul>
+                    <li><a href="https://github.com/sumbernotas/PetBag" target="_blank">Original Project</a></li>
+                    <li><a href="https://github.com/sumbernotas/RescueIntakeSystem" target="_blank">Enhanced Project</a></li>
+                </ul>
+
+                <h2>Artifact Introduction</h2>
+                <p>The artifact enhanced for this category is the Rescue Animal Management System, originally developed during my IT-145 Foundations 
+                    in Application Development course. The original system was a basic Java console application designed to manage rescue animals 
+                    (dogs and monkeys) using simple ArrayList data structures for storage and linear search algorithms for data retrieval. My enhanced 
+                    version represents a complete transformation by implementing binary search tree data structures to replace the inefficient 
+                    ArrayList-based storage system. The enhanced system now supports four animal types (dogs, monkeys, cats, and birds) with advanced 
+                    search capabilities, comprehensive validation systems, and performance monitoring features.
+                </p>
+
+                <h2>Justification</h2>
+                <p>I selected this artifact for my ePortfolio because it demonstrates a deep understanding of data structures and algorithms while showcasing 
+                    practical problem solving skills that are essential in professional software development. The transformation from a basic linear storage 
+                    system to an optimized tree based architecture illustrates several key ideas that align perfectly with the Data Structures and Algorithms 
+                    enhancement category. <br><br>
+
+                    Algorithm Optimization: The most significant improvement is the replacement of O(n) linear search algorithms with O(log n) binary 
+                    search tree operations. This change demonstrates my understanding of computational complexity and the practical impact of algorithm 
+                    selection on system performance. For a system with 100 animals, searches that previously required up to 100 comparisons now require a 
+                    maximum of 7 comparisons which is a dramatic 14x performance improvement. <br><br>
+
+                    Advanced Data Structure Implementation: The creation of a generic AnimalBinaryTree&ltT&gt" class showcases my ability to implement 
+                    complex data structures from scratch. The tree includes sophisticated features such as recursive insertion and deletion algorithms, 
+                    in-order traversal for automatic sorting, and multi-criteria search capabilities. This implementation demonstrates understanding of 
+                    type safety and reusable code design principles. <br><br>
+
+                    System Architecture Enhancement: The development of the AnimalTreeManager class illustrates my grasp of software architecture patterns. 
+                    This manager provides an interface for multiple binary search trees while maintaining separation of concerns and complex tree operations.
+                    Scalability and Extensibility: The system expansion from two to four animal types, each with specialized attributes and validation logic, 
+                    demonstrates my ability to design scalable solutions. The architecture allows for easy addition of new animal types without disrupting 
+                    existing functionality.
+
+                </p>
+
+                <h2>Reflection</h2>
+                <p>Enhancing this artifact was a really enjoyable experience for me as I got to implement a binary search tree which I have not done in quite 
+                    a while. While this was a much smaller scale project than my first enhancement, I did reach some challenges when designing the tree manager 
+                    to handle multiple animal types efficiently while maintaining type safety. Initially, I considered creating separate manager classes for 
+                    each animal type, but this approach would have led to san unnecessary amount of code duplication. My solution was to use a generic tree 
+                    implementation with a unified manager interface which required careful consideration of inheritance relationships and generic type parameters. 
+                    Another challenge I had was managing the complexity of the enhanced system while maintaining usability. The original system's simplicity was 
+                    part of its appeal, and adding sophisticated features without overwhelming the user required careful interface design. This experience taught 
+                    me the importance of balancing functionality with user experience. Overall, this enhancement was truly an upgrade to the original, basic PetBag 
+                    system and I got to touch base on concepts I haven’t touched in a while. The transformation from a simple ArrayList-based system to a 
+                    sophisticated tree-based architecture demonstrates not only technical competency but also the analytical thinking and problem-solving abilities 
+                    that define effective software engineering.
+                </p>
             </div>
 
             <!-- ENHANCEMENT THREE -->
             <div id="panel-4" class="tab-content" role="tabpanel" aria-labelledby="ex-tab-4">
-                <h3>Databases</h3>
-                <p>TODO</p>
+                <h1>Databases</h1>
+
+                <ul>
+                    <li><a href="https://github.com/sumbernotas/CS-320-SoftwareTestQA" target="_blank">Original Project</a></li>
+                    <li><a href="https://github.com/sumbernotas/MedicalAptApplication" target="_blank">Enhanced Project</a></li>
+                </ul>
+
+                <h2>Artifact Introduction</h2>
+                <p>This artifact is a comprehensive web-based system for managing patients and their appointments. It is an enhancement of my 
+                    original project completed in CS-320 Software Testing and QA. Originally, the project was command-line only, no UI, that 
+                    provided basic CRUD operations for contacts, tasks, and appointments using only service classes and JUnit testing. My enhanced 
+                    artifact for category three is a continuation of enhancement one which was converting it into a full-featured Spring Boot web 
+                    application with user interface, validation, and professional software architecture. The continuation for this enhancement is 
+                    that instead of the application using in-memory, it officially uses a persistent MySQL database by utilizing Spring Data JPA with hibernate. 
+                </p>
+
+                <h2>Justification</h2>
+                <p>As stated before, I chose this artifact for my ePortfolio because it was one of my favorite projects I've completed within my time at 
+                    SNHU. It also provided an ideal foundation to demonstrate database design, integration, and security competencies which are fundamental 
+                    skills to professional software development. The artifact's existing service layer architecture, established validation logic, and clear 
+                    separation of concerns created the perfect structure to add a persistence layer without requiring a complete rewrite. The Medical 
+                    Appointment domain is particularly well suited for demonstrating database concepts because it includes multiple related entities, 
+                    referential integrity requirements, business rules requiring validation, audit requirements, and security considerations protecting 
+                    sensitive medical information.  <br><br>
+
+	                Design: I created normalized relational database schemas with two tables (patients and appointments) featuring appropriate data types, 
+                    constraints, primary keys with auto-increment, unique constraints on business identifiers, and audit columns providing complete history 
+                    trails. This demonstrated my understanding of proper database design and data modeling principles. <br><br>
+                    ORM with JPA and Hibernate: I implemented entity mapping using JPA annotations, lifecycle callbacks for automatic timestamp management, 
+                    and Hibernate configuration including dialect selection and DDL auto-generation. This showcased my ability to bridge object-oriented code 
+                    with relational databases. <br><br>
+                    Repository Pattern: I created repository interfaces extending JpaRepository for automatic CRUD implementation and custom query methods 
+                    using Spring Data JPA naming conventions. This demonstrated my understanding of data access abstraction and modern persistence patterns.
+                    Transaction Management: I implemented declarative transaction management using @Transactional annotations to ensure data consistency and 
+                    ACID compliance. This showcased my ability to handle complex database operations safely. <br><br>
+                    Security: I implemented input sanitization through pattern validation to prevent SQL injection attacks, combined with multi-layered 
+                    validation throughout the application. This demonstrated my security-conscious development practices. <br><br>
+
+                    My artifact was improved through several key enhancements as compared to even my enhancement one by replacing the in-memory HashMap 
+                    storage with a persistent MySQL database, implementing Spring Data JPA and Hibernate for ORM, adding automatic audit timestamps for 
+                    tracking changes, establishing transaction management for data consistency, and implementing comprehensive input validation and SQL 
+                    injection prevention. The enhancement transformed the application from a volatile, development-only tool into a persistent, production 
+                    ready system capable of handling real world healthcare scenarios.
+                </p>
+
+                <h2>Reflection</h2>
+                <p>This enhancement was actually less challenging than the other two because I had already created the foundations for this one in the 
+                    first enhancement. Adding the persistent database felt more like a natural update of the app rather than a complete overwrite. I had 
+                    this enhancement planned out from the start of this course, so I developed my first enhancement with this one in mind. While I did face 
+                    some challenges with the initial MySQL installation and configuration, these were primarily infrastructure, and user error issues rather 
+                    than architectural challenges. The implementation of the database itself actually went quite smoothly!  
+                </p>
             </div>
         </div>
     </div>
@@ -46,4 +194,5 @@
 </body>
 
 </html>
+
 
