@@ -76,4 +76,14 @@ a:hover {
     color: #71BcF8;
 }
 
+#self-assessment-list {
+    text-align: left;
+}
+
+#self-assessment-list li {
+    display: list-item;
+    list-style-type: disc !important;
+}
+
+
 
